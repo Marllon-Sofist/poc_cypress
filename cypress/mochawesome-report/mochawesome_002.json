@@ -1,0 +1,164 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-08T20:44:15.277Z",
+    "end": "2021-11-08T20:44:16.906Z",
+    "duration": 1629,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5c310b47-2f51-4ca6-82cc-6723604cfd84",
+      "title": "",
+      "fullFile": "cypress/integration/features/api/teste_api.feature",
+      "file": "cypress/integration/features/api/teste_api.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7e9e79b7-8e2e-4e46-9b79-fc4fbb7af34f",
+          "title": "Login - validar login com sucesso",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Teste de api simples",
+              "fullTitle": "Login - validar login com sucesso Teste de api simples",
+              "timedOut": null,
+              "duration": 448,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "4c28d98f-f835-4f35-b5ec-8dae755f6106",
+              "parentUUID": "7e9e79b7-8e2e-4e46-9b79-fc4fbb7af34f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Teste de api simples",
+              "fullTitle": "Login - validar login com sucesso Teste de api simples",
+              "timedOut": null,
+              "duration": 400,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "6e320626-6b81-4f57-807f-c2bde109e12a",
+              "parentUUID": "7e9e79b7-8e2e-4e46-9b79-fc4fbb7af34f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "teste api get reqres",
+              "fullTitle": "Login - validar login com sucesso teste api get reqres",
+              "timedOut": null,
+              "duration": 141,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "ab4ccdb0-e598-4f00-b65d-4b4e5c9eb042",
+              "parentUUID": "7e9e79b7-8e2e-4e46-9b79-fc4fbb7af34f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "teste api post reqres",
+              "fullTitle": "Login - validar login com sucesso teste api post reqres",
+              "timedOut": null,
+              "duration": 524,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "9d702efc-bab0-4595-a388-14b70894aaf2",
+              "parentUUID": "7e9e79b7-8e2e-4e46-9b79-fc4fbb7af34f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4c28d98f-f835-4f35-b5ec-8dae755f6106",
+            "6e320626-6b81-4f57-807f-c2bde109e12a",
+            "ab4ccdb0-e598-4f00-b65d-4b4e5c9eb042",
+            "9d702efc-bab0-4595-a388-14b70894aaf2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1513,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "overwrite": "false",
+        "reportPageTitle": "Automated Test Status",
+        "reportTitle": "Automated Test Reporting Dashboard",
+        "showPassed": "true",
+        "autoOpen": "false",
+        "charts": "true",
+        "code": "false"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-11-11T14:48:31.605Z",
+    "end": "2021-11-11T14:48:52.329Z",
+    "duration": 20724,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ab8814ab-790c-44ea-8044-2493b9b7a468",
+      "title": "",
+      "fullFile": "cypress/integration/features/front/teste_front.feature",
+      "file": "cypress/integration/features/front/teste_front.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "85e5ae7c-d72d-4be4-9d24-c2fc18889d0b",
+          "title": "Navigation",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Clicking the Home link on the homepage shows home page",
+              "fullTitle": "Navigation Clicking the Home link on the homepage shows home page",
+              "timedOut": null,
+              "duration": 20517,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "CypressError: Timed out retrying: Expected to find element: '.input', but never found it.",
+                "estack": "CypressError: Timed out retrying: Expected to find element: '.input', but never found it.\n    at Object.cypressErr (https://sofistautomacao.souionicahml.com/__cypress/runner/cypress_runner.js:86207:11)\n    at Object.throwErr (https://sofistautomacao.souionicahml.com/__cypress/runner/cypress_runner.js:86162:18)\n    at Object.throwErrByPath (https://sofistautomacao.souionicahml.com/__cypress/runner/cypress_runner.js:86194:17)\n    at retry (https://sofistautomacao.souionicahml.com/__cypress/runner/cypress_runner.js:76849:16)\n    at onFailFn (https://sofistautomacao.souionicahml.com/__cypress/runner/cypress_runner.js:65634:16)\n    at tryCatcher (https://sofistautomacao.souionicahml.com/__cypress/runner/cypress_runner.js:120203:23)\n    at Promise._settlePromiseFromHandler (https://sofistautomacao.souionicahml.com/__cypress/runner/cypress_runner.js:118139:31)\n    at Promise._settlePromise (https://sofistautomacao.souionicahml.com/__cypress/runner/cypress_runner.js:118196:18)\n    at Promise._settlePromise0 (https://sofistautomacao.souionicahml.com/__cypress/runner/cypress_runner.js:118241:10)\n    at Promise._settlePromises (https://sofistautomacao.souionicahml.com/__cypress/runner/cypress_runner.js:118316:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://sofistautomacao.souionicahml.com/__cypress/runner/cypress_runner.js:114928:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://sofistautomacao.souionicahml.com/__cypress/runner/cypress_runner.js:114938:10)\n    at Async.drainQueues (https://sofistautomacao.souionicahml.com/__cypress/runner/cypress_runner.js:114812:14)",
+                "diff": null
+              },
+              "uuid": "c96438b8-27e5-43fb-adfa-d80abd8760b4",
+              "parentUUID": "85e5ae7c-d72d-4be4-9d24-c2fc18889d0b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "c96438b8-27e5-43fb-adfa-d80abd8760b4"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 20517,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "overwrite": "false",
+        "reportPageTitle": "Automated Test Status",
+        "reportTitle": "Automated Test Reporting Dashboard",
+        "showPassed": "true",
+        "autoOpen": "false",
+        "charts": "true",
+        "code": "false"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

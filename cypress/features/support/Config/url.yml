@@ -1,0 +1,11 @@
+---
+url: https://api.thecatapi.com/v1/
+token: "00922a02-4ca3-49a2-bd23-884e20d0e9b6"
+listBreeds: "breeds"
+searchBreeds: "breeds/search"
+categorires: "categories"
+votes: "votes"
+url_webPage: https://sofistautomacao.souionicahml.com/viewer/
+
+
+
